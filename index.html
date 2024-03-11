@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>bg change</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+      <div>
+            <input type="text" name="" id="clr" placeholder="enter the name of color">
+            <button id="btn">change color</button>
+      </div>
+
+      <script>
+
+            let btn =document.getElementById("btn")
+            
+            btn.addEventListener('click',()=>{
+                  let clr =document.getElementById("clr")
+                  let body =document.querySelector("body")
+                  body.style.backgroundColor =`${clr.value}`
+            })
+            
+
+
+
+      </script>
+      
+</body>
+</html>
