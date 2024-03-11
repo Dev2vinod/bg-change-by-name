@@ -1,0 +1,24 @@
+
+body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+ button{
+      padding: 12px 33px;
+      margin: 12px;
+      border-radius: 12px;
+
+ }
+ h1{
+      margin: 0 auto;
+ }
+
+ #incre{
+      background-color: greenyellow;
+
+ }
+ #decre{
+      background-color: fuchsia;
+ }
